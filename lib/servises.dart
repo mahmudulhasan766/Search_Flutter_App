@@ -11,6 +11,7 @@ class Services {
       if (response.statusCode == 200) {
         List<User> list = parseUsers(response.body);
       }
+      print(response.body);
     } catch (e) {
       throw Exception(e.toString());
     }
