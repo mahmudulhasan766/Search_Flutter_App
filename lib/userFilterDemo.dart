@@ -57,7 +57,7 @@ class UserFilterDemoState extends State<UserFilterDemo> {
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
-              /* TextField(
+              TextField(
                 decoration: InputDecoration(
                   contentPadding: EdgeInsets.all(15.0),
                   hintText: 'Filter by name or email',
@@ -76,7 +76,7 @@ class UserFilterDemoState extends State<UserFilterDemo> {
                     });
                   });
                 },
-              ),*/
+              ),
               users != null
                   ? ListView.builder(
                       padding: EdgeInsets.all(10.0),
