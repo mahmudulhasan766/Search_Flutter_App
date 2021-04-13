@@ -60,7 +60,7 @@ class UserFilterDemoState extends State<UserFilterDemo> {
               TextField(
                 decoration: InputDecoration(
                   contentPadding: EdgeInsets.all(15.0),
-                  hintText: 'Filter by name or email',
+                  hintText: 'Filter by name or email ',
                 ),
                 onChanged: (string) {
                   _debouncer.run(() {
@@ -92,12 +92,12 @@ class UserFilterDemoState extends State<UserFilterDemo> {
                                 Text(
                                   users[index].name,
                                   style: TextStyle(
-                                    fontSize: 16.0,
+                                    fontSize: 15.0,
                                     color: Colors.black,
                                   ),
                                 ),
                                 SizedBox(
-                                  height: 5.0,
+                                  height: 6.0,
                                 ),
                                 Text(
                                   users[index].email.toLowerCase(),
